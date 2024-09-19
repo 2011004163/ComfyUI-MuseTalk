@@ -31,7 +31,13 @@ D:\StableDiffusion\ComfyUI_MuseTalk\python_embeded\python.exe -m pip uninstall t
 
 然后你可以使用我已经打包的新requirements.txt安装依赖
 你可以只下载这个文件,把这个文件放到D:\StableDiffusion\ComfyUI_MuseTalk\ComfyUI\custom_nodes\ComfyUI-MuseTalk类似的目录
-在此目录打开cmd,输入..\..\..\python_embeded\python.exe -m pip install -r requirements.txt,你即可使用你的comfyui的python解释器安装这些依赖
+在此目录打开cmd,输入
+```
+..\..\..\python_embeded\python.exe -m pip install -r requirements.txt
+```
+,你即可使用你的comfyui的python解释器安装这些依赖
+
+```
 torch==2.0.1  
 torchvision==0.15.2  
 torchaudio==2.0.2  
@@ -59,6 +65,7 @@ openmim==0.3.9
 mmengine==0.10.4  
 mmcv==2.0.1
 mmdet==3.1.0
+```
 这些依赖
 
 ###  然后你需要下载模型 Download weights
